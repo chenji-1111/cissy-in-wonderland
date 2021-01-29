@@ -1,37 +1,67 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/chenji-1111/cissy-in-wonderland/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Digital Chalkboard Tasks -->
+    <!-- 1. Update the link to the css so it loads on your system. -->
+    <!-- 2. Change all the p.prompt values to p.promptLine -->
+    <!-- 3. Suggest some style choices to render a console look. -->
+    <!-- 4. Create a numbered list that represents a menu of options. -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+    crossorigin="anonymous">
+    <p class="bg-primary"></p>
+    <title> ❤ Cissy in Wonderland ❤ </title>
+  </head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  <body>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#" style="color: lightpink;">Wonderland</a>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" style="color: lightpink;">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+            role="button" aria-expanded="false" style="color: lightpink;">Attention</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="preference.html" style="color: rgba(236, 75, 75, 0.911);">Preference</a>
+              <a class="dropdown-item" href="#" style="color: rgba(95, 184, 226, 0.856);">Spoiler Alert</a></div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="color: lightpink;">Magic Button</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html" style="color: lightpink;">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
-### Markdown
+  <div class="container">
+    <h1 class="h1"> ❤ Cissy in Wonderland ❤ </h1>
+    <h2 class="d-none d-md-block">&copy; Chen Ji's Github Website </h2> 
+  </div>
+    <!--option 1-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+  <br />
+  <div class="container">
+    <h3>&hearts; Some of My Interests</h3>
+  </div>
+  <div class="container-lg">
+    <div class="row">
+      <div class="col-md-1"><li><a href="https://www.bilibili.com/">Bilibili</li></div><div class="col-md-1"><li><a href="https://twice.jype.com/">Twice</li></div><div class="col-md-1"><li><a href="https://www.sanrio.com/">Sanrio</li></div><div class="col-md-3"><li><a href="https://the-kings-avatar.fandom.com/wiki/The_King%27s_Avatar_Wikia">The King's Avatar</li></div>
+    </div>
+  </div>
+  
+  <img class="img-fluid" src="c2.gif">
+  </body>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/chenji-1111/cissy-in-wonderland/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
