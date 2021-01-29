@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <!-- Digital Chalkboard Tasks -->
     <!-- 1. Update the link to the css so it loads on your system. -->
     <!-- 2. Change all the p.prompt values to p.promptLine -->
