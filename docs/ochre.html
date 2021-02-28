@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS links-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/newstyle.css">
+
+    <title>ORCHE API</title>
+    <!--JS links-->
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=VT323&display=swap" rel="stylesheet">   
+    <!--style-->
+    <style>
+        body
+        {
+          background-color: rgba(50, 13, 75, 0.527);
+        }
+    </style>
+</head>
+
+<body onload="loadXML()" data-new-gr-c-s-check-loaded="14.997.0" data-gr-ext-installed="">
+   <!--navbar-->
+   <div>
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color: white;">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#">&hearts;</a>
+              <button class="navbar-toggler" type="button" 
+              data-toggle="collapse" data-target="#navbarSupportedContent" 
+              aria-controls="navbarSupportedContent" aria-expanded="false" 
+              aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">HOME.</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" 
+                  role="button" aria-expanded="false">ACG.</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="ACG-J.html" >ACG-Japan</a>
+                    <a class="dropdown-item" href="ACG-C.html">ACG-China</a></div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="dojin.html">DOJIN.</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="magic.html">MAGIC.</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="repository.html">REPOSITORY.</a>
+                </li>
+              </ul>
+          </div>
+
+          <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#" 
+            role="button" aria-expanded="false">API.</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="mapapi.html" >Map API</a>
+              <a class="dropdown-item" href="wikiapi.html">Wiki API</a>
+              <a class="dropdown-item active" href="ochre.html">OCHRE API</a></div>
+          </li>
+          </ul>
+      </nav>
+  </div>
+    <div class="container mt-3">
+      <div id="title" class="h1"></div>
+      <div id="subtitle"></div>
+  
+      <div class="container">
+        <h2 id="projectTitle">Ras Shamra Tablet Inventory</h2>
+        <h3 id="setTitle">Texts with photos from John Ellison Sample</h3>
+        <div id="setDescription">This is a set of 11 texts to use as a sample for publishing images.</div>
+        <table class="table table-striped order-table" id="ochreTable">
+          <thead class="thead-dark" id="ochreTableColumns">
+            <tr>
+              <th style="text-align: left; width: 30%">Name</th>
+              <th style="text-align: left; width: 30%">Description</th>
+            </tr>
+          </thead>
+          <tbody id="ochreTableBody">
+          <tr class="ochreTableRows" id="row_0"><td id="td_name_0">Aqhatu 2</td><td id="td_desc_0">The Story of Aqhatu, Tablet 2</td></tr><tr class="ochreTableRows" id="row_1"><td id="td_name_1">Baal 3</td><td id="td_desc_1">The Baal Myth, Tablet 3</td></tr><tr class="ochreTableRows" id="row_2"><td id="td_name_2">Baal 4</td><td id="td_desc_2">The Baal Myth, Tablet 4</td></tr><tr class="ochreTableRows" id="row_3"><td id="td_name_3">Kirta 1</td><td id="td_desc_3">The Story of Kirta, Tablet 1</td></tr><tr class="ochreTableRows" id="row_4"><td id="td_name_4">Kirta 2</td><td id="td_desc_4">The Story of Kirta, Tablet 2</td></tr><tr class="ochreTableRows" id="row_5"><td id="td_name_5">Kirta 3</td><td id="td_desc_5">The Story of Kirta, Tablet 3</td></tr><tr class="ochreTableRows" id="row_6"><td id="td_name_6">RIH 78/12</td><td id="td_desc_6">D’un fils à la reine sa mère</td></tr><tr class="ochreTableRows" id="row_7"><td id="td_name_7">RIH 83/21</td><td id="td_desc_7">Trois empreintes sur bulle du sceau nominatif de ʿAmmîyiḏtamru.</td></tr><tr class="ochreTableRows" id="row_8"><td id="td_name_8">RS 1-11.[009]</td><td id="td_desc_8">RS 1-11.[009]</td></tr><tr class="ochreTableRows" id="row_9"><td id="td_name_9">RS 1-11.[010]</td><td id="td_desc_9">RS 1-11.[010]</td></tr><tr class="ochreTableRows" id="row_10"><td id="td_name_10">RS 1-11.[011]</td><td id="td_desc_10">RS 1-11.[011]</td></tr></tbody>
+        </table>
+      </div>
+      <a id="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike</a>
+  
+    </div>
+    <br>
+
+    <!--footer-->
+    <footer class="footer mt-auto py-3 bg-light" style="width: 100%; float: left;
+    text-align: center;">
+        <div class="container-fluid">
+        <span class="text-muted">
+            <a href="contact.html" style="text-decoration: none; color: black;">&hearts; CONTACT CISSY.</a></span>
+        </div>
+    </footer>
+
+    <script src="scripts/textJS.js"></script>
+
+</body>
+</html>
