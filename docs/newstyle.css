@@ -1,0 +1,67 @@
+
+
+img{
+    width: 100%;
+    height: 23vw;
+}
+
+.body {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 14px;
+    line-height: 1.428571429;
+  }
+
+h1 {
+    font-family: 'VT323', monospace;
+    color: white;
+    text-transform:capitalize;
+}
+
+h2 {
+    font-family: 'VT323', monospace;
+    color: white;
+}
+
+h3 {
+    font-family: 'VT323', monospace;
+    color: white;
+}
+
+h4 {
+    font-family: 'Rokkitt', serif;
+    color: white;
+}
+
+h5 {
+    font-family: 'VT323', monospace;
+    color: white;
+    font-size: 25px;
+}
+
+.navbar-nav {
+    font-family: 'VT323', monospace;
+    font-size: large;
+    background:white;
+} 
+
+.time{
+    font-family: 'VT323', monospace;
+    color: white;
+    background-color: black;
+    font-size: x-large;
+}
+
+.footer{
+    font-family: 'VT323', monospace;
+    font-size: large;
+    background:white;
+}
+
+.front-page {
+    border: 3px solid rgba(75, 2, 75, 0.815);
+    background-color:rgba(231, 191, 231, 0.527);
+    width: 50% !important;
+    margin: 20px;
+}
+
+footer{bottom:0;width:100%;}

@@ -1,0 +1,79 @@
+.mt-3 {
+    margin-top: 1rem!important;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 520px)
+.front-page {
+    width: 90% !important;
+}
+
+.front-page {
+    border: 3px solid rgba(75, 2, 75, 0.815);
+    background-color:rgba(231, 191, 231, 0.527);
+    width: 50% !important;
+    margin: 20px;
+}
+
+
+
+h1 {
+    font-family: 'VT323', monospace;
+    color: black;
+    text-transform:capitalize;
+}
+
+h2 {
+    font-family: 'VT323', monospace;
+    color: black;
+}
+
+h3 {
+    font-family: 'VT323', monospace;
+    color: black;
+}
+
+h4 {
+    font-family: 'Rokkitt', serif;
+    color: black;
+}
+
+h5 {
+    font-family: 'Rokkitt', serif;
+    color: black;
+    font-size: 25px;
+}
+
+.navbar-nav {
+    font-family: 'VT323', monospace;
+    font-size: large;
+    background:white;
+} 
+
+.time{
+    font-family: 'VT323', monospace;
+    color: white;
+    font-size: x-large;
+}
+
+.footer{
+    font-family: 'VT323', monospace;
+    font-size: large;
+    background:white;
+}
+
+footer{
+    position:absolute;bottom:0;width:100%;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+  }
